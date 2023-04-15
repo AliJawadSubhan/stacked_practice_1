@@ -14,7 +14,9 @@ class HomeView extends StatelessWidget {
         return Scaffold(
           body: Center(
               child: Text(
-                  "Counter Value: ${viewmodel.counterService.counterValue}")),
+            "Counter Value: ${viewmodel.counterService.counterValue}",
+            style: TextStyle(color: Colors.amber, fontSize: 21),
+          )),
         );
       },
     );

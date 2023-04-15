@@ -20,7 +20,10 @@ class CounterView extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Counter Value: ${viewmodel.counterService.counterValue}"),
+                Text(
+                  "Counter Value: ${viewmodel.counterService.counterValue}",
+                  style: TextStyle(color: Colors.amber, fontSize: 21),
+                ),
                 TextButton(
                   onPressed: () {
                     viewmodel.addtoCounter();
