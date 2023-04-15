@@ -22,7 +22,7 @@ class CounterView extends StatelessWidget {
               children: [
                 Text(
                   "Counter Value: ${viewmodel.counterService.counterValue}",
-                  style: TextStyle(color: Colors.amber, fontSize: 21),
+                  style: TextStyle(color: Colors.red, fontSize: 21),
                 ),
                 TextButton(
                   onPressed: () {
